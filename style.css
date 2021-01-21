@@ -1,0 +1,1070 @@
+* {
+    margin: 0;
+    padding:0;
+	list-style: none;
+    }
+div.bodycontent{
+	display: inline-block;
+	width: calc(100% - 30px);
+	padding: 15px;
+}
+header{
+		    border-bottom: 1px solid #ddd;
+		   	width: 100%;
+		    height: 52px;
+		    background-color: #fff;
+		}
+div.page{
+			display: block;
+		    margin:0 auto;
+		    max-width: 1024px;
+			width: 100%;
+		}
+
+header div.logo{
+			float: left;
+		    width: 10%;
+		    min-width: 100px;
+		    font-family: Arial, Helvetica, sans-serif;
+		    margin-top: 25px;
+		   
+		}
+header div.logo span img{
+		    width: 100%;
+		    height: 100%;
+		    min-height: 29px;
+		    display: inline-block;
+		    color: #333333;
+		    font-size: 12px;
+		    position: absolute;
+		    bottom: 10px;
+		   
+		}
+header div.logo span{
+			margin-top: 0;
+		    width: 94px;
+		    text-transform: uppercase;
+		    font-size: 8px;
+		    color: #444444;
+		    font-weight: bold;
+		    position: relative;
+		}
+header div.category-menu{
+			display: inline-block;
+	 	    width: 85%;
+		    font-family: Arial, Helvetica, sans-serif;
+		    font-weight: bold;
+		}
+header div.category-menu ul{
+			display: inline-block;
+		    width: 100%;
+		    height: 100%;
+		   
+		}
+header div.category-menu ul li{
+			float: left;
+		    margin-right: 2%;
+		    font-size: 14px;
+		    margin-top: 20px;
+		    
+		}
+		.category-menu ul li:first-child{
+			margin-left: 2%;
+		}
+		.category-menu ul li:last-child{
+			margin-right: 0;
+		}
+header div.category-menu ul li a{
+			display:inline-block;
+			width: 100%;
+			font-size: 14px;
+    		color: #444444;
+    		text-decoration: none
+    		
+		}
+		.category-menu ul li a:hover{
+			color: cyan;
+			border-bottom: 1px solid cyan;
+
+		}
+header div.header-toolbox{
+    		float: right;
+    		width: auto;
+    		
+    		
+
+		}
+header div.header-toolbox span{
+			float: left;
+			font-size: 20px;
+			margin-right: 10px;		
+			margin-top: 15px;
+		}
+		.header-toolbox span:last-child{
+			margin-right: 0;
+		}
+
+div.hashtag{
+		    display: inline-block;
+		    width: 100%;
+		}
+		.hashtag ul{
+				    width: auto;
+				    height: 24px;
+				    background: url("http://static-znews.zadn.vn/images/stat.svg") no-repeat left center;
+				    background-size: 24px;
+				    display: block;
+				    white-space: nowrap;
+				    margin-top: 10px;
+				    margin-bottom: 10px;
+				    padding-left: 24px;
+				}
+		.hashtag ul li{
+				    height: 24px;
+				    line-height: 24px;
+				    display: inline-block;
+				    -webkit-border-radius: 100px;
+				    -moz-border-radius: 100px;
+				    border-radius: 100px;
+				    background-color: #f0f0f0;
+				    font-size: 13px;
+				    font-family: Arial, Helvetica, sans-serif;
+				    color: #000;
+				    margin-left: 20px;
+				    padding: 0 8px 0 12px;
+				}
+		.hashtag ul li a{
+				    display: inline-block;
+				    color: #333;
+				    font-size: 100%;
+				    margin-right: 4px;
+				    text-decoration: none;
+				}
+div.container{
+				display: inline-block;
+				width: 100%;
+			}
+div.left{
+			float: left;
+			width: 23.5%;
+		}
+		.left ul{
+				    padding-right: 20px;
+				}
+		.left ul li{
+				    display: inline-block;
+				    border-bottom: 1px solid #dedede;
+				    padding-bottom: 15px;
+				    margin-bottom: 15px;
+				    font-size: .9rem;
+				}
+		.left ul li:last-child{
+				    border-bottom: none;
+				}
+		.left ul li p{
+				    line-height: 1.4;
+				    font-size: 100%;
+				    font-weight: bold;
+				    font-family: Arial, Helvetica, sans-serif;
+				    text-align: left;
+				    color: #333;
+				}
+		.left ul li img{
+				    float: left;
+				    width: 120px;
+				    height: 80px;
+				    margin-right: 12px;
+				}
+div.right{
+			float: right;
+			width: calc(100% - 23.5%);
+		}
+		.right h1{
+				    color: #333;
+				    font-weight: bold;
+				    font-family: Arial, Helvetica, sans-serif;
+				    font-size: 2rem;
+				    padding-top: 10px;
+				}
+		.right div.contentmid{
+				    float: left;
+				    width: 70%;
+				}
+		.contentmid p{
+				    font-size: 0.875rem;
+				    display: block;
+				    color: #444;
+				    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+				    padding-top: 10px;
+				    line-height: 1.7;
+				}
+				
+		.right div.contentmid img{
+				    width: 100%;
+				}
+		.right div.contentmid ul{
+				    width: 100%;
+				    display: inline-block;
+				    font-weight: bold;
+				    color: #333333;
+				    font-family: Arial, Helvetica, sans-serif;
+				    font-size: .9rem;
+				    padding-top: 10px;
+				}
+		.right ul.ul-right{
+				    float: right;
+				    padding-left: 20px;
+				    width: calc(30% - 20px);
+				}
+		.right ul.ul-right li{
+				    float: left;
+				    margin-bottom: 25px;
+				    width: 100%;
+				}
+		.right ul.ul-right li p{
+				    font-family: Arial, Helvetica, sans-serif;
+				    color: #333;
+				    font-weight: bold;
+				    text-align: left;
+				    
+				}
+		.right ul.ul-right li img{
+				    width: 100%;
+				    margin-bottom: 8px;
+				}
+div.slide{
+		    display: inline-block;
+		    margin-top: 15px;
+		    margin-bottom: 50px;
+		    width: 100%;
+		}
+		.slide div.page{
+			display: block;
+			width: 100%;
+			margin: 0 auto;
+			position: relative;
+
+		}
+		.slide h3{
+				    display: inline-block;
+				    font-size: 18px;
+				    text-transform: uppercase;
+				    margin-bottom: 20px;
+				    font-family: Arial, Helvetica, sans-serif;
+				    padding-right: 6px;
+				    padding-top: 4px;
+				    background: url(https://cdn4.iconfinder.com/data/icons/mathematical-symbols/33/Division_Slash-512.png)no-repeat left center;
+				    background-size: 15px;
+				    padding-left: 24px;
+				}
+		.slide ul{
+				    display: inline-block;
+				    width: 100%;
+				    height: 200px;
+
+				}
+		.slide ul li{
+				display: inline-block;
+			    width: calc(20% - 16px);
+			    height: 100%;
+				margin-right: 10px;
+			    margin-left: 6px;
+			    background-color: #ddd;
+				}
+		.slide ul li img{
+					display: inline-block;
+				    width: 100%;
+				    height: 60%;
+				}
+		.slide ul li p{
+					display: inline-block;
+					width: calc(100% - 10px);
+				    font-size: 14px;
+				    color: #555;
+				    margin: 10px;
+				    text-align: left;
+				    font-weight: bold;
+				    font-family: Arial, Helvetica, sans-serif;
+				}
+		.slide span#arrowleft{
+				    float: left;
+				    position: absolute;
+				    left: -5.5%;
+				    top: 50%;
+				    font-size: 150%;
+				}
+		.slide span#arrowright{
+				    float: right;
+				    position: absolute;
+				    right: -4.5%;
+				    top: 50%;
+				    font-size: 150%;
+				}
+div.Multimedia{
+			          display: block;
+			          margin: 0 auto;
+			          width: 100%;
+			          max-width: 1024px;
+			      }
+			.Multimedia div.page{
+					background-color: #ffde76;
+					display: block;
+					width: calc(100% - 40px);
+					margin: 0 auto; 
+					padding: 20px;
+			}
+			.Multimedia div.tag{
+					display: inline-block;
+					width: 100%;
+			        text-transform: uppercase;
+			        font-family: Arial, Helvetica, sans-serif;
+			        font-weight: bold;
+			        font-size: 14px;
+			        padding-top: 4px;
+			        margin-bottom: 20px;
+			      }
+
+			.Multimedia div.tag h3{
+						float: left;
+			          font-size: 24px;
+			          text-transform: uppercase;
+			          font-family: Arial, Helvetica, sans-serif;
+			          padding-right: 6px;
+			          background: url(https://cdn4.iconfinder.com/data/icons/mathematical-symbols/33/Division_Slash-512.png)no-repeat left center;
+			          background-size: 15px;
+			          padding-left: 24px;
+			      }
+			.Multimedia div.tag ul{
+			          display: block;
+			          width: 100%;
+			          padding-top: 5px;
+			          
+			      }
+			.Multimedia div.tag ul li{
+			          float: left;
+			          margin-left: 30px;
+
+			      }
+			.Multimedia div.tag ul a{
+			          text-decoration: none;
+			          vertical-align: middle;
+			          color: #333;
+			      }
+			.Multimedia div.new-media{
+			          display: inline-block;
+			          width: 100%;
+			      }
+			.Multimedia div.new-media ul{
+			          display: inline-block;
+			          width: 100%;
+			          position: relative;
+			      }
+			.Multimedia div.new-media ul li{
+					float: left;
+			          width: 23.5%;
+			          margin-right: 2%;
+			          margin-bottom: 20px;
+			          font-size: 1rem;
+
+			      }
+			.Multimedia div.new-media ul li img{
+				max-height: 144.5px;
+			       	height: 100%;
+			        width: 100%;
+			        margin-bottom: 8px;
+
+			      }
+			.Multimedia div.new-media ul li:nth-child(3){
+					margin-right: 0;
+			}			      
+			.Multimedia div.new-media ul li:nth-child(4){
+					clear: left;
+					float: left;
+			}
+			.Multimedia div.new-media ul li:last-child{
+					margin-right: 0;
+			      }
+			.Multimedia div.new-media ul li:first-child{
+					float: left;
+			        width: 49%;
+			        position: relative;
+			        margin-bottom: 20px;
+
+			      }
+			.Multimedia div.new-media ul li:first-child img{
+			        width: 100%;
+			        height: 100%;
+			        max-height: 300px;
+			        margin-bottom: 0;
+			      }
+			.Multimedia div.new-media ul li:first-child p{
+					font-size: 24px;
+					text-align: left;
+					color: white;
+					position: absolute;
+					bottom: 10px;
+					left: 10px;
+			}
+			.Multimedia div.new-media ul li p{
+	
+			          color: #333;
+			          font-weight: bold;
+			          font-size: 1em;
+			          text-align: left;
+			          font-family: Arial, Helvetica, sans-serif;
+			      }	
+div.foryou{
+				display: inline-block;
+				width: 100%;
+			    margin-top: 20px;
+			}
+			.f-header{
+			    display: inline-block;
+			    width: 100%;
+			    margin-bottom: 20px;
+			}
+			.f-header h3{
+			    display: inline-block;
+			    font-size: 24px;
+			    text-transform: uppercase;
+			    font-family: Arial, Helvetica, sans-serif;
+			    padding-right: 6px;
+			    padding-top: 4px;
+			    background: url(https://cdn4.iconfinder.com/data/icons/mathematical-symbols/33/Division_Slash-512.png)no-repeat left center;
+			    background-size: 15px;
+			    padding-left: 24px;
+			}
+			.f-news{
+			    display: inline-block;
+			    width: 100%
+			}
+			.f-news ul{
+				float: left;
+			    width: calc(70% - 20px);
+			    padding-right: 20px;
+			}
+			.f-news li{
+			    display: inline-block;
+			    width: 100%;
+			    border-bottom: 1px solid #dedede;
+			    padding-bottom: 15px;
+			    margin-bottom: 15px;
+			    font-size: .9rem;;
+			}
+			.f-news li:last-child{
+			    border-bottom: none;
+			}
+			.f-news a{
+			    font-weight: bold;
+			    font-family: Arial, Helvetica, sans-serif;
+			    color: #333;
+			    text-align: left;
+			    text-decoration: none;
+			    font-size: 19.2px;
+			    line-height: 1.3;
+			    letter-spacing: 0;
+			}
+			.f-news p{
+			    font-size: 14px;
+			    color: #888;
+			    line-height: 1.4;
+			}
+			.f-news ul li img{
+			    float: left;
+			    width: calc(33% - 15px);
+			    margin-right: 15px;
+			}
+			.f-ads{
+			    background: green;
+			    float: right;
+			    width: 30%;
+			}
+			.f-ads img{
+				display: inline-block;
+			    width: 100%;
+			}
+div.magazine{
+				display: inline-block;
+				width: 100%;
+				background: #888;
+				position: relative;
+			} 
+			.magazine h3{
+			    display: inline-block;
+			    font-size: 24px;
+			    text-transform: uppercase;
+			    font-family: Arial, Helvetica, sans-serif;
+			    padding-top: 5px;
+			    background: url(https://cdn4.iconfinder.com/data/icons/mathematical-symbols/33/Division_Slash-512.png)no-repeat left center;
+			    background-size: 15px;
+			    padding-left: 24px; 
+			    margin-bottom: 20px;
+			}
+			.magazine div.zoom{
+			    margin: 0 auto;
+			    max-width: 1120px;
+			    width: 100%;
+			    display: block;
+			    padding-top: 15px;
+			}
+			
+			.magazine button#leftarrow{
+			    width: 45px;
+			    height: 45px;
+			    font-size: 24px;
+			    background: #ffde76;
+			    border-radius: 50%;
+			    position: absolute;
+			    top: 50%;
+			    left: 0;
+			    
+			}
+			.magazine button#rightarrow{
+			    width: 45px;
+			    height: 45px;
+			    font-size: 24px;
+			    background: #ffde76;
+			    border-radius: 50%;
+			    position: absolute;
+			    top: 50%;
+			    right: 0;
+			}
+			.magazine div.zoom ul{
+			    display: inline-block;
+			    width: 96%;
+			    height: 100%;
+			    margin-bottom: 40px;
+			    position: relative;
+			    overflow: hidden;
+			   	margin-left: 2%;
+			   	margin-right: 2%;
+			}
+			.magazine ul li {
+			    float: left;
+			    width: 23%;
+			    height: 365.4px;
+			    border-radius: 4px; 
+			    position: relative;
+			    margin-right: 2%;
+			    overflow: hidden;
+			}
+			.magazine ul li:last-child{
+			    margin-right: 0;
+			}
+			.magazine ul li:hover{
+			    box-shadow: 0 5px 5px #000;
+			    border-radius: 4px;
+			}
+
+			.magazine  ul li p{
+			    position: absolute;
+			    bottom: 30%;
+			    text-align: center;
+			    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+			    color: #fff;
+			    font-weight: bold;
+			    line-height: 1.3;
+			    padding: 0 20px;
+			    font-size: 20px;
+			    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			}
+			.magazine  ul li:hover p{
+			    color: #ffde76;
+			}
+			.magazine ul li span{
+			    text-align: center;
+			    background: #ffde76;
+			    border-bottom-left-radius: 5px;
+			    border-bottom-right-radius: 5px;
+			    font-size: 14px;
+			    font-weight: bold;
+			    text-transform: uppercase;
+			    color: #000;
+			    width: 30%;
+ 			    height: 7.5%;
+			    line-height: 25px;
+			    position: absolute;
+			    top: 0;
+			    left: 30%;
+			}
+			.magazine  ul li img{
+			    width: 100%;
+			    height: 100%;
+			    border-radius: 4px;
+			    transition: 2s;
+			    overflow: hidden;
+			}
+			.magazine ul li:hover img{
+			    -ms-transform: scale(1); /* IE 9 */
+			    -webkit-transform: scale(1); /* Safari 3-8 */
+			    transform: scale(1.2);
+			}
+			.magazine  ul li button{
+			    width: 48px;
+			    height: 48px;
+			    background: #000;
+			    color: #ffde76;
+			    font-size: 18px;
+			    border-radius: 50%;
+			    position: absolute;
+			    bottom: 5%;
+			    left: 40%;
+
+			}
+			.magazine  ul li:hover button{
+			    background: #ffde76;
+			    color: #333;
+			}
+div.news {
+		    display: block;
+		    width: 100%;
+		    margin: 0 auto;
+		    padding-top: 20px;
+		}
+
+		.news div.page ul{
+		    display: inline-block;
+		    width: 100%;
+		}
+		.news div.page ul li{
+		    float: left;
+		    width: 23.5%;
+		    height: 100%;
+		    margin-right: 2%;
+		}
+		.news div.page ul li:nth-child(4){
+			margin-right: 0;
+		}
+		.news div.page ul li h3{
+		    display: block;
+		    font-size: 20px;
+		    text-transform: uppercase;
+		    font-family: Arial, Helvetica, sans-serif;
+		    background: url(https://cdn4.iconfinder.com/data/icons/mathematical-symbols/33/Division_Slash-512.png)no-repeat left center;
+		    background-size: 15px;
+		    padding-left: 25px; 
+		    margin-bottom: 20px;
+		}
+		.news div.page ul li ul.content li p{
+			display: block;
+			width: calc(60% - 10px);
+			margin-top: 10px;
+			margin-left: 10px;
+		    color: #333;
+		    font-weight: bold;
+		    font-size: 100%;
+		    text-align:left;
+		    font-family: Arial, Helvetica, sans-serif;
+		    overflow: hidden;
+		}
+		.news div.page ul li ul.content li{
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+			min-height: 90px;
+			display: inline-block;
+			border-top: 1px solid #888;
+
+		}
+		.news div.page ul li ul.content li img{
+			float: left;
+			width: 40%;
+			height: 100%;
+			margin-top: 10px;
+			margin-right: 10px;
+		}
+
+		.news div.page ul li ul.content li:first-child{
+		    border-top: none;
+		    min-height: 220px;
+		}
+		.news div.page ul li ul.content li:first-child p{
+			display: inline-block;
+			width: 100%;
+			margin-left: 0;
+		}
+		.news div.page ul li ul.content li:first-child img{
+			display: inline-block;
+			width: 100%;
+			max-height: 146px;
+			height: 100%;
+			margin-top: 0;
+		}
+		.news div.page ul li ul.content{
+			display: inline-block;
+			width: 100%;
+		}
+		
+div.video{
+			width: 100%;
+			display: inline-block;
+		}
+		.video h3{
+			display: inline-block;
+			font-size: 18px;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+			font-family: Arial, Helvetica, sans-serif;
+			padding-right: 6px;
+			padding-top: 4px;
+			background: url(https://cdn4.iconfinder.com/data/icons/mathematical-symbols/33/Division_Slash-512.png)no-repeat left center;
+			background-size: 15px;
+			padding-left: 24px;
+		}
+		div.videoframe{
+			width: 100%;
+			display: inline-block;
+			height: 357px;
+		}
+		.video iframe.mainframe{
+			width: 65%;
+			float: left;
+			height: 100%;
+		}
+		.video ul{
+			width: 35%;
+			height: 100%;
+			display: block;
+			overflow: scroll;
+			overflow-x: hidden;
+			background: #888;
+		}
+		.video ul li{
+			width: calc(100% - 10px);
+			height: 21%;
+			display: inline-block;
+			margin-top: 10px;
+			overflow: hidden;
+			padding-left: 10px;
+
+		}
+		.video ul li iframe{
+			width: 40%;
+			float: left;
+
+		}
+		.video ul li p{
+			width: calc(60% - 20px);
+			margin-left: 20px;
+			display: inline-block;
+		}
+
+@media only screen and (max-width:	1040px){
+		div.magazine ul li{
+			margin-right: 0;
+			width: 25%;
+		}
+		div.magazine button#leftarrow{
+			display: none;
+		}
+		div.magazine button#rightarrow{
+			display: none;
+		}
+}
+@media only screen and (max-width: 1024px){
+		div.page{
+			
+			position: relative;
+		}
+
+		header div.category-menu{
+			float: left;
+		}
+		.category-menu ul li{
+			display: none;
+		}
+		.category-menu ul li:last-child{
+			display: block;
+			width: 100%;
+		}
+		header div.logo {
+			position: absolute;
+			top: 0;
+			left: 50%;
+		}
+
+		div.hashtag{
+			width: calc(100% - 40px);
+          	margin-left: 20px;
+          	margin-right: 20px;
+		}
+		div.container{
+			width: calc(100% - 40px);
+          	margin-left: 20px;
+          	margin-right: 20px;
+		}
+		div.slide{
+			width: calc(100% - 40px);
+          	margin-left: 20px;
+          	margin-right: 20px;
+		}
+		div.left{
+			float: right;
+			width: 40%;
+
+		}
+		div.right{
+			float: left;
+			width: 58%;
+		}
+		.right div.contentmid{
+			display: inline-block;
+			width: 100%;
+		}
+		.right ul.ul-right{
+			display: inline-block;
+			width: 100%;
+		}
+		.right ul.ul-right li{
+			border-top:	1px solid #dedede;
+    		padding-top: 15px;
+    		margin-top: 15px;
+    		margin-bottom: 0;
+		}
+		.right ul.ul-right li img{
+			display: none;
+		}
+		.Multimedia div.tag ul{ 
+         	display: none;
+        }
+       
+        .Multimedia{
+  			width: 100%;
+          	
+        }
+        .Multimedia div.new-media ul li{
+          	width: 49%;
+          	vertical-align:top;
+          	margin-right: 0;
+        }
+      	.Multimedia div.new-media ul li:first-child{
+      		display: inline-block;
+      		width: 100%;
+      	}
+      	.Multimedia div.new-media ul li:first-child{
+          	width: 100%;
+          	height: 100%;
+          	display: inline-block;
+         }
+        .Multimedia div.new-media ul li:first-child img{
+        	max-width: none;
+        	max-height: none;
+        	width: 100%;
+        	height: 100%;
+        }
+        .Multimedia div.new-media ul li img{
+          	float: left;
+          	max-width: 120px;
+          	max-height: 80px;
+          	margin-right: 2%;
+        }
+        
+        .Multimedia div.new-media ul li{
+          	display: inline-block;
+          	width: 50%;
+        }
+        
+        div.foryou{
+        	width: calc(100% - 40px);
+          	margin-left: 20px;
+          	margin-right: 20px;
+        }
+       	.f-ads{
+			display: none;
+		}
+		.f-news ul{
+			width: 100%;
+		}
+
+        div.magazine ul li{
+        	width: 23%;
+        	margin-right: 2%;
+        }
+        
+        div.news ul li{
+        	width: calc(50% - 15px);
+
+        }
+        .news ul li img{
+        	margin-top: 10px;
+		    margin-right: 8px;
+		    float: left;
+		    width: calc(100% - 8px);
+		    max-width: 105px;
+		    height: 70px;
+		    max-height: 70px;
+        }
+        .news ul li p{
+        	margin-top: 10px;
+		    text-align: left;
+		    font-family: Arial, Helvetica, sans-serif;
+		    font-weight: bold;
+		    color: #333;
+		    font-size: 0.7em;
+		    max-height: 6.5em;
+        }
+        .news div.page ul li{
+        	width: 48%;
+        }
+        .news div.page ul li ul.content li:first-child{
+        	height: 100%;
+        	min-height: 90px;
+        	margin-bottom: 10px;
+        }
+        .news div.page ul li ul.content li:first-child p{
+        	float: left;
+        	width: calc(60% - 10px);
+        	margin-top: 0;
+		}
+		.news div.page ul li ul.content li:first-child img{
+			float: left;
+			width: 40%;
+			height: 100%;
+			margin-top: 0;
+			margin-right: 10px;
+			max-height: 90px
+		}
+		.video div.videoframe iframe.mainframe{
+			width: 100%;
+			display: inline-block;
+			height: 100%;
+		}
+		.video div.videoframe ul{
+			display: inline-block;
+			width: 100%;
+			max-height: 180px;
+			overflow: inherit;
+			background-color:#888;
+			
+		}
+		.video div.videoframe ul li{
+			width: 22.5%;
+			height: 100%;
+			float: left;
+			margin-top: 10px;
+			overflow: hidden;
+			padding-left: 2%;
+
+		}
+		.video div.videoframe ul li iframe{
+			display: inline-block;
+			width: 100%;
+		}
+		.video div.videoframe ul li p{
+			display: none;
+		}
+		.video div.videoframe ul li:nth-child(5){
+			display: none;
+		}
+		.video div.videoframe ul li:nth-child(6){
+			display: none;
+		}
+		.video div.videoframe ul li:nth-child(7){
+			display: none;
+		}
+		.video div.videoframe ul li:nth-child(8){
+			display: none;
+		}
+		.video div.videoframe ul li:nth-child(9){
+			display: none;
+		}
+
+
+}
+@media only screen and (max-width: 767px){
+
+		div.right{
+			display: inline-block;
+			width: 100%;
+		}
+		div.left{
+			display: inline-block;
+			width: 100%;
+		}
+		.left ul{
+			display: inline-block;
+			width: 100%;
+			margin-top: 10px;
+		}
+		.left ul li{
+			display: inline-block;
+			width: 100%;
+			margin-top: 10px;
+		}
+		.left ul li:first-child{
+			border-top: 5px solid #888;
+			padding-top: 20px;
+		}
+		div.slide{
+			width: calc(100% - 15px);
+			margin: 15px;
+		}
+		.slide ul li:nth-child(4){
+			display: none;
+		}
+		.slide ul li:last-child{
+			display: none;
+		}
+		.slide ul li{
+			width: 30%;
+			margin-right: 2%;
+		}
+		.slide span#arrowleft{
+		    left: 5.5%;
+		    border-radius: 100px;
+		}
+		.slide span:hover{
+			background: #888;
+		}
+		.slide span#arrowright{
+			right: 5.5%;
+			border-radius: 100px;
+		}
+		div.magazine ul{
+			margin-left: 1%;
+		}
+		div.magazine ul li{
+			width: 31%;
+			margin-right: 2%;
+		}
+		.magazine ul li:last-child{
+			display: none;
+		}
+		.Multimedia div.new-media ul{
+			margin-left: 1%;
+
+		}
+		.Multimedia div.new-media ul li{
+			width: 48%;
+			display:inline-block;
+			margin-right: 2%;
+		}
+		.Multimedia div.new-media ul li:first-child{
+			width: 98%;
+			margin-right: 2%;
+
+		}
+		.Multimedia div.new-media ul li img{
+			width: 100%;
+			display:inline-block;
+			max-height: 225px;
+			max-width: none;
+			height: 100%;
+		}
+		.news div.page ul li{
+        	width: 100%;
+        }
+        div.video{
+        	display: none;
+        }
+
+}
+@media only screen and (max-width: 667px){
+		div.magazine ul li{
+			width: 48%;
+			margin-right: 2%;
+		}
+		div.magazine ul li:nth-child(3){
+			display: none;
+		}
+}
